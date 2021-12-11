@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html>
+<header>
+  <center>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/image.css">
+    <title>Telangana Page</title>
+  </center>
+</header>
+<audio controls id="linkAudio">
+  <source src="sounds/Discover_Hyderabad.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<body>
+    <div class="hometags">
+      <div class="home-anchortags"><a class="home" href="index.html">Home</a></div>
+      <div class="home-anchortags"><a class="home" href="Work_experience.html">Work Experience</a></div>
+      <div class="home-anchortags"><a class="home" href="contact_us.html">Contact</a></div>
+  </div>
+      <div class="states-text">
+          <h3 >Additional Resources</h3>
+          <ul type="disc">
+            <li><a href=# class="topich" id="link_id">Audio Tour</a><br><br></li>
+            <li><a href="pdf/Hyderabad-Travel.pdf" target="_blank" class="topich">Display Map</a> <br></li>
+          </ul>
+          <h3>Cities</h3>
+          <ul type="disc">
+            <li><a href=# class="topich">Hyderabad</a><br><br></li>
+            <li><a href=# class="topich">Warangal</a> <br></li>
+          </ul>
+        </div>
+
+
+<div>
+  <p class='paraheadings'>Hyderabad</p>
+
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="images/filmcity.jpg" style="width:100%">
+              <div class="text">Ramoji Film City</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="images/charminar.jpg" style="width:100%">
+              <div class="text">Charminar</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="images/tank.jpg" style="width:100%">
+              <div class="text">Hussain Sagar Buddha</div>
+            </div>
+
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+<div>
+          <p class='para'> <strong>Telangana </strong>is a state in India situated on the south-central
+            stretch of the Indian peninsula on the high Deccan Plateau. It is the eleventh-largest state and
+            the twelfth-most populated state in India with a geographical area of 112,077 km2 (43,273 sq mi)
+            and 35,193,978 residents as per 2011 census. On 2 June 2014, the area was separated from the
+            northwestern part of Andhra Pradesh as the newly formed state with Hyderabad as its capital. Its
+            other major cities include Warangal, Nizamabad, Khammam, Karimnagar and Ramagundam. Telangana is
+            bordered by the states of Maharashtra to the north, Chhattisgarh to the northeast, Karnataka to
+            the west, and Andhra Pradesh to the east and south. The terrain of Telangana region consists
+            mostly of hills, mountain ranges, and thick dense forests covering an area of 27,292 km2 (10,538
+            sq mi). As of 2019, the state of Telangana is divided into 33 districts.</p>
+</div>
+
+
+
+
+    <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+
+      /*For audio Script */
+      document.getElementById("link_id").addEventListener("click", function () {
+        document.getElementById("linkAudio").play();
+      });
+    </script>
+
+    <div class="footer-block">
+      <footer><br>
+        <p class="footer-para">&copy copyrights:2020
+          Akhil Madishetty </p>
+        <br>
+      </footer>
+    </div>
+</body>
+
+
+</html>

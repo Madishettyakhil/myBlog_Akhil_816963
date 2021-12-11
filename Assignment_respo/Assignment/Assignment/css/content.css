@@ -1,0 +1,180 @@
+header,
+footer {
+    background-color: snow white;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #600E00;
+    color: #FFDED8;
+}
+
+body {
+    background-color: snow white;
+    background-attachment: fixed;
+    ;
+}
+
+a.home {
+    text-decoration: none;
+    color: white;
+}
+
+a.home:hover {
+    color: black;
+}
+
+td.theory {
+    padding: 0% 1.2%;
+}
+
+img.paraimg {
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+img.paraimg:hover {
+    opacity: 1;
+    cursor: grab;
+}
+
+div.prog {
+    background-color: rgb(236, 236, 236, 0.5);
+    color: black;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1% 3%;
+}
+
+p.paraheadings {
+    color: #000459;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 0px 0px 150px #000459;
+}
+
+p.para,
+ol.para {
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a.topics:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+a.topics {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+p.topichead {
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th.home:hover {
+    background-color: cyan;
+    border-radius: 5px;
+    border-color: Black;
+}
+
+td.headings {
+    background-color: snow white;
+    border-radius: 5px;
+    padding: 1.2%;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+td.topics {
+    background-color: snow white;
+    border-radius: 5px;
+    padding: 1.2%;
+}
+
+a.topich {
+    color: black;
+    font-size: 22px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+a.topich:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: Blue;
+}
+
+table.hometags {
+    background-color: #600E00;
+    border-radius: 5px;
+}
+.float-container{
+
+    padding: 20px;
+
+}
+
+.float-child1{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.float-child2{
+    float: left;
+    padding: 20px;
+}
+
+
+.img_telangana {
+  float: left;
+  margin-top: 15px;
+}
+
+
+.side_nav {
+  float: left;
+}
+
+
+.body{ min-height:80vh;}
+.footer-block{float:none; clear:both;
+    text-align: center;}
+.one{float:left;width:16%;
+    margin-left: 10px;
+    white-space: nowrap;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.two{
+    width:20%;
+    float: left;
+    width: 42%;
+}
+.three{float:left;
+    width:40%;
+}
+
+/* .states-aside{
+    margin-left: 10px;
+    white-space: nowrap;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+} */
